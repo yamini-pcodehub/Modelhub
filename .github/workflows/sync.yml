@@ -21,11 +21,6 @@ with:
   # Note: this param has no effect if the repo already exists.
   private: false
 
-  # If repo type is space, specify a space_sdk. One of: streamlit, gradio, or static
-  #
-  # This option is especially important if the repo has not been created yet.
-  # It won't really be used if the repo already exists.
-  space_sdk: 'gradio'
   
   # If provided, subdirectory will determine which directory of the repo will be synced.
   # By default, this action syncs the entire GitHub repo.
